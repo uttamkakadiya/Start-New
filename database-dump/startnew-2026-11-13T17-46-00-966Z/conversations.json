@@ -1,0 +1,68 @@
+[
+  {
+    "_id": {
+      "$oid": "6af73149e4bc15c7b58e37fb"
+    },
+    "id": "2bcf76f3-0d96-4727-94db-1c69eab858ce",
+    "participants": [
+      "3162b87e-1e88-45b2-9a04-e749c201ec75",
+      "75f9826a-1f3a-42ef-95c1-7b602722baeb"
+    ],
+    "pairKey": "3162b87e-1e88-45b2-9a04-e749c201ec75:75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905543"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905549"
+      }
+    },
+    "lastMessage": "Absolutely. Send me the rough steps and I?ll give it a look."
+  },
+  {
+    "_id": {
+      "$oid": "6af73149e4bc15c7b58e37fc"
+    },
+    "id": "ebcd2f86-26b2-43e8-987a-4f7cfccd2f5b",
+    "participants": [
+      "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+      "ec644956-b451-4d25-ad25-5c753a31cdb3"
+    ],
+    "pairKey": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a:ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905551"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905553"
+      }
+    },
+    "lastMessage": "That would be brilliant. I?ll share a simple test version this week."
+  },
+  {
+    "_id": {
+      "$oid": "6af735b993480d42857ebf8e"
+    },
+    "id": "a8433854-0c69-4608-acb7-9e18796e8e28",
+    "participants": [
+      "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+      "39007a9e-c705-42f2-9479-794c6c1703db"
+    ],
+    "pairKey": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e:39007a9e-c705-42f2-9479-794c6c1703db",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794586041177"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794589119500"
+      }
+    },
+    "lastMessage": "hello om how are u"
+  }
+]

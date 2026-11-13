@@ -1,0 +1,96 @@
+[
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796594"
+    },
+    "seedKey": "3162b87e-1e88-45b2-9a04-e749c201ec75:75f9826a-1f3a-42ef-95c1-7b602722baeb-demo-1",
+    "conversationId": "2bcf76f3-0d96-4727-94db-1c69eab858ce",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794577705545"
+      }
+    },
+    "read": true,
+    "receiverId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "senderId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "text": "I?m lining up a small refill-shop pilot. Could I get your thoughts on the onboarding flow?"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796595"
+    },
+    "seedKey": "3162b87e-1e88-45b2-9a04-e749c201ec75:75f9826a-1f3a-42ef-95c1-7b602722baeb-demo-2",
+    "conversationId": "2bcf76f3-0d96-4727-94db-1c69eab858ce",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794581305547"
+      }
+    },
+    "read": false,
+    "receiverId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "senderId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "text": "Absolutely. Send me the rough steps and I?ll give it a look."
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796596"
+    },
+    "seedKey": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a:ec644956-b451-4d25-ad25-5c753a31cdb3-demo-1",
+    "conversationId": "ebcd2f86-26b2-43e8-987a-4f7cfccd2f5b",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794577705551"
+      }
+    },
+    "read": true,
+    "receiverId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "senderId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "text": "Our community workshop group would love to try the family menu planner."
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796597"
+    },
+    "seedKey": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a:ec644956-b451-4d25-ad25-5c753a31cdb3-demo-2",
+    "conversationId": "ebcd2f86-26b2-43e8-987a-4f7cfccd2f5b",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794581305553"
+      }
+    },
+    "read": false,
+    "receiverId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "senderId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "text": "That would be brilliant. I?ll share a simple test version this week."
+  },
+  {
+    "_id": {
+      "$oid": "6af735be93480d42857ebf8f"
+    },
+    "conversationId": "a8433854-0c69-4608-acb7-9e18796e8e28",
+    "senderId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "receiverId": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+    "text": "hii",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794586046977"
+      }
+    },
+    "read": true
+  },
+  {
+    "_id": {
+      "$oid": "6af741bfd8fbdbe093ecec08"
+    },
+    "conversationId": "a8433854-0c69-4608-acb7-9e18796e8e28",
+    "senderId": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+    "receiverId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "text": "hello om how are u",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794589119500"
+      }
+    },
+    "read": true
+  }
+]

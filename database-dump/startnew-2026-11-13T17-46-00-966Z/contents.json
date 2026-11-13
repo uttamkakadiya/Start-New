@@ -1,0 +1,354 @@
+[
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796573"
+    },
+    "seedKey": "refill-loop",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Climate",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793548105460"
+      }
+    },
+    "creatorId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "description": "A local map that helps shoppers find refill stations for household essentials. Shoppers bring reusable containers, local stores gain loyal customers, and fewer single-use bottles end up in the bin.",
+    "fundingAmount": "",
+    "helpRequired": "Pilot shops and user research.",
+    "imageUrl": "",
+    "solution": "A searchable refill map with products, opening hours and community rewards.",
+    "stage": "Prototype",
+    "targetAudience": "Eco-conscious shoppers and independent grocery shops.",
+    "title": "RefillLoop",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905460"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796574"
+    },
+    "seedKey": "repair-neighbours",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Community",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793720905491"
+      }
+    },
+    "creatorId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "description": "A neighbourhood board for sharing repair skills, lending tools and finding trusted local fixers before useful things are thrown away.",
+    "fundingAmount": "",
+    "helpRequired": "Community partners and service-design feedback.",
+    "imageUrl": "",
+    "solution": "A local directory for repair events, volunteer skills and tool libraries.",
+    "stage": "Idea",
+    "targetAudience": "Residents, community groups and repair caf?s.",
+    "title": "Repair Neighbours",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905491"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796575"
+    },
+    "seedKey": "pocket-tutor",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Education",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793980105493"
+      }
+    },
+    "creatorId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "description": "Short study sessions match learners with volunteer mentors for a focused 20-minute explanation of one tricky topic.",
+    "fundingAmount": "",
+    "helpRequired": "Teacher feedback and safeguarding advice.",
+    "imageUrl": "",
+    "solution": "A lightweight booking tool organised around a specific study question.",
+    "stage": "Prototype",
+    "targetAudience": "Secondary-school and first-year university students.",
+    "title": "PocketTutor",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905493"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796576"
+    },
+    "seedKey": "localloop-stock",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Technology",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794325705495"
+      }
+    },
+    "creatorId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "description": "An easy shared inventory tool for independent shops that want to show customers what is available without building a full online store.",
+    "fundingAmount": "",
+    "helpRequired": "Retail pilot partners and engineering feedback.",
+    "imageUrl": "",
+    "solution": "A phone-friendly stock update flow connected to a public catalogue.",
+    "stage": "Research",
+    "targetAudience": "Independent retailers and local shoppers.",
+    "title": "LocalLoop Stock",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905495"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796577"
+    },
+    "seedKey": "skillswap-saturday",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Education",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794066505497"
+      }
+    },
+    "creatorId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "description": "Monthly community meetups where people teach one practical skill in a relaxed, beginner-friendly session.",
+    "fundingAmount": "",
+    "helpRequired": "Volunteer hosts and venue connections.",
+    "imageUrl": "",
+    "solution": "Neighbour-led workshops with simple sign-ups and pay-what-you-can contributions.",
+    "stage": "Launched",
+    "targetAudience": "Young adults, career changers and community groups.",
+    "title": "SkillSwap Saturdays",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905497"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796578"
+    },
+    "seedKey": "first-gen-circle",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Community",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793980105499"
+      }
+    },
+    "creatorId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "description": "A peer network where first-generation graduates exchange practical advice, practice interviews and meet supportive mentors.",
+    "fundingAmount": "",
+    "helpRequired": "Mentors and university partners.",
+    "imageUrl": "",
+    "solution": "Small guided groups, mentor sessions and a library of real-world tips.",
+    "stage": "Idea",
+    "targetAudience": "First-generation university students and graduates.",
+    "title": "First-Gen Career Circle",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905499"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796579"
+    },
+    "seedKey": "lunchbox-lab",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Food",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793893705501"
+      }
+    },
+    "creatorId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "description": "A weekly menu club that helps families plan affordable lunches with seasonal ingredients and recipes kids can help make.",
+    "fundingAmount": "",
+    "helpRequired": "Nutrition review and family testing.",
+    "imageUrl": "",
+    "solution": "A flexible planner with batch-prep suggestions and a community recipe exchange.",
+    "stage": "Prototype",
+    "targetAudience": "Busy families, carers and school communities.",
+    "title": "Lunchbox Lab",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905501"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679657a"
+    },
+    "seedKey": "surplus-kitchen",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Food",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794239305503"
+      }
+    },
+    "creatorId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "description": "A coordination space where community kitchens share spare ingredients with nearby groups able to use them that day.",
+    "fundingAmount": "",
+    "helpRequired": "Food safety advice and pilot partners.",
+    "imageUrl": "",
+    "solution": "A time-sensitive listing board for trusted kitchens and organisations.",
+    "stage": "Research",
+    "targetAudience": "Community kitchens, charities and local food projects.",
+    "title": "Surplus Kitchen Exchange",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905503"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679657b"
+    },
+    "seedKey": "carebridge-visits",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Health",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793548105505"
+      }
+    },
+    "creatorId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "description": "A consent-first calendar to help families organise friendly visits and practical errands for older relatives living independently.",
+    "fundingAmount": "",
+    "helpRequired": "Care-sector advisors and privacy-focused UX feedback.",
+    "imageUrl": "",
+    "solution": "A shared schedule for trusted family members and community helpers.",
+    "stage": "Research",
+    "targetAudience": "Older adults and their families.",
+    "title": "CareBridge Visits",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905505"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679657c"
+    },
+    "seedKey": "calm-checkin",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Health",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793548105507"
+      }
+    },
+    "creatorId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "description": "A gentle reflection tool that helps people notice patterns in stress and find small, practical wellbeing resources.",
+    "fundingAmount": "",
+    "helpRequired": "Clinical review and inclusive design collaborators.",
+    "imageUrl": "",
+    "solution": "A private check-in with user-controlled reminders and trusted local resources.",
+    "stage": "Idea",
+    "targetAudience": "Students and early-career professionals.",
+    "title": "Calm Check-in",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905507"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679657d"
+    },
+    "seedKey": "fairstart-finance",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Finance",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1793548105509"
+      }
+    },
+    "creatorId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "description": "A plain-language money planner that turns irregular freelance income into a clearer view of bills, tax set-asides and savings goals.",
+    "fundingAmount": "",
+    "helpRequired": "Freelancer testers and financial-literacy review.",
+    "imageUrl": "",
+    "solution": "A simple forecast built around income ranges and user-defined priorities.",
+    "stage": "Prototype",
+    "targetAudience": "Freelancers and people building side projects.",
+    "title": "FairStart Finance",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905509"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679657e"
+    },
+    "seedKey": "sparechange-local",
+    "businessModel": "Community partnerships and an affordable subscription.",
+    "category": "Finance",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794239305511"
+      }
+    },
+    "creatorId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "description": "A community challenge that helps people learn budgeting basics while supporting a local cause through small voluntary goals.",
+    "fundingAmount": "",
+    "helpRequired": "Community partners and financial education mentors.",
+    "imageUrl": "",
+    "solution": "Short opt-in challenges with transparent milestones and practical tips.",
+    "stage": "Idea",
+    "targetAudience": "Young adults, community organisations and employers.",
+    "title": "SpareChange Local",
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794584905511"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73c4893480d42857ebf92"
+    },
+    "creatorId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "title": "Parking management",
+    "description": "Parking Management System – Project Idea & Pitch\nA Parking Management System (PMS) is a smart software application designed to manage parking spaces efficiently. It helps drivers find available parking spaces, book slots, make payments, and avoid wasting time searching for parking.\n\nYou can present this idea as a modern technology-based solution to everyday parking problems.\n1. The problem we are solving\nIn cities, shopping centres, universities, hospitals and offices, parking can be difficult because:\n- Drivers waste time searching for empty parking spaces.\n- There is no easy way to check parking availability before arriving.\n- Manual parking management can cause errors.\n- Drivers sometimes park in unauthorised spaces.\n- Parking payments and entry/exit records can be difficult to manage.\n- Parking owners struggle to monitor occupancy and revenue.  \nThe system will allow users to:\n1. Register and log in.\n2. Search for nearby parking locations.\n3. View available and occupied parking spaces.\n4. Reserve a parking space.\n5. Receive a unique QR code for entry.\n6. Make online parking payments.\n7. Track parking duration and costs.\n8. Receive notifications before their booking expires.\nAdministrators will have a dashboard to manage parking spaces, bookings, payments and reports.",
+    "problem": "Drivers waste time searching for available parking spaces due to poor parking management and lack of real-time availability. Our system solves this by helping users quickly find, book and pay for parking spaces online, reducing traffic, frustration and wasted time.",
+    "solution": "Develop a Smart Parking Management System that allows users to find available parking spaces, check real-time availability, book slots, make online payments and access parking using QR codes. It also helps parking owners manage spaces, bookings and payments efficiently.",
+    "targetAudience": "public",
+    "businessModel": "How can a Parking Management System earn money? 1. Booking Commission: Earn 5–10% on every parking reservation. 2. Monthly Subscription: Charge parking owners £49–£199 per month to use your software. 3. Premium Booking: Charge extra for guaranteed or priority parking. 4. Advertising: Earn money by promoting nearby businesses. 5. EV Partnerships: Earn commissions from electric vehicle charging services. 6. Analytics: Sell parking demand and occupancy reports to operators. Example earnings If you",
+    "category": "Technology",
+    "stage": "Idea",
+    "helpRequired": "funding and more ideas to implement in my project",
+    "fundingAmount": "",
+    "imageUrl": "/uploads/ideas/30e46f7e-101d-4faa-8f30-253912079c2e.jpg",
+    "documentUrl": "",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794587720675"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1794587720675"
+      }
+    }
+  }
+]

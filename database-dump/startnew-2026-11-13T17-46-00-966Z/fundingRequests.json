@@ -1,0 +1,19 @@
+[
+  {
+    "_id": {
+      "$oid": "6af7360c93480d42857ebf91"
+    },
+    "founderId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "amount": "10000",
+    "purpose": "marketing",
+    "description": "parking management",
+    "stage": "Growing",
+    "partnersWanted": true,
+    "status": "open",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794586124147"
+      }
+    }
+  }
+]

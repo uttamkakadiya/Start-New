@@ -1,0 +1,1069 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f8fc" />
+    <meta
+      name="description"
+      content="Your idea. Your people. Your opportunity. Build something new with Start New."
+    />
+    <title>Start New — Your idea. Your people. Your opportunity.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/frontend/css/style.css" />
+  </head>
+  <body>
+    <div class="announcement"><span class="announcement-dot"></span> A community for what's next</div>
+    <header class="site-header">
+      <a class="brand" href="#" data-view="landing" aria-label="Start New home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>start<span class="brand-accent">new</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <button data-view="explore">Explore ideas</button>
+        <button data-view="people">People</button>
+        <button data-view="funding">Funding</button>
+        <button data-view="feed" class="auth-only hidden">Your feed</button>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button auth-only hidden" id="notifications-button" aria-label="Notifications">
+          ♧<span class="notification-dot hidden" id="notification-dot"></span>
+        </button>
+        <button class="button button-quiet" id="login-open">Log in</button>
+        <button class="button button-primary" id="register-open">
+          Join the community <span aria-hidden="true">↗</span>
+        </button>
+        <div class="account-menu auth-only hidden" id="account-menu">
+          <button
+            class="account-menu-toggle"
+            id="account-menu-toggle"
+            type="button"
+            aria-label="Open account menu"
+            aria-expanded="false"
+            aria-controls="account-menu-panel"
+          >
+            <img src="/frontend/images/default-avatar.svg" alt="" /><span id="account-menu-name"></span
+            ><span class="account-menu-caret" aria-hidden="true">⌄</span
+            ><span
+              class="account-notification-count hidden"
+              id="account-notification-count"
+              aria-live="polite"
+              aria-atomic="true"
+            ></span>
+          </button>
+          <div class="account-menu-panel hidden" id="account-menu-panel">
+            <button class="account-menu-item" type="button" data-view="profile">My profile</button>
+            <button class="account-menu-item" type="button" id="account-update-profile">
+              Update details
+            </button>
+            <div class="account-menu-divider"></div>
+            <button class="account-menu-item account-menu-logout" type="button" id="logout-button">
+              Log out
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- The client switches between these single-page views after checking session state. -->
+    <main>
+      <section class="view active" id="view-landing" aria-labelledby="hero-title">
+        <div class="hero-shell">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-icon">✳</span> THE STARTUP COMMUNITY</div>
+            <h1 id="hero-title">Your idea.<br />Your people.<br /><span>Your opportunity.</span></h1>
+            <p class="hero-text">
+              Big things rarely happen alone. Find your people, share what you're building, and take your next
+              idea somewhere new.
+            </p>
+            <div class="hero-actions">
+              <button class="button button-primary button-large" id="hero-join">
+                Find your people <span>↗</span>
+              </button>
+              <button class="button button-outline button-large" data-view="explore">
+                Explore ideas <span>→</span>
+              </button>
+            </div>
+            <div class="social-proof">
+              <div class="avatar-stack">
+                <img src="/frontend/images/default-avatar.svg" alt="" /><img
+                  src="/frontend/images/default-avatar.svg"
+                  alt=""
+                /><img src="/frontend/images/default-avatar.svg" alt="" />
+              </div>
+              <span
+                ><strong>Good ideas grow together.</strong><br />Join a community built to help you
+                start.</span
+              >
+            </div>
+          </div>
+          <div class="hero-visual" aria-label="Illustration of connected startup ideas">
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="idea-window">
+              <div class="window-top">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <span>THE NEXT BIG THING</span><span class="window-menu">•••</span>
+              </div>
+              <div class="window-content">
+                <span class="idea-tag">✦ CLIMATE TECH</span>
+                <div class="window-art">
+                  <div class="sun"></div>
+                  <div class="hill hill-back"></div>
+                  <div class="hill hill-front"></div>
+                  <div class="plant plant-one">♧</div>
+                  <div class="plant plant-two">♧</div>
+                </div>
+                <h3>Small changes.<br />A greener tomorrow.</h3>
+                <div class="window-footer">
+                  <span><span class="online-dot"></span> Idea in progress</span><span>♡ 24</span>
+                </div>
+              </div>
+            </div>
+            <div class="floating-note note-top">
+              <span class="note-icon purple">✦</span
+              ><span><b>Find your next collaborator</b><small>Good things start with a hello.</small></span>
+            </div>
+            <div class="floating-note note-bottom">
+              <span class="note-icon mint">↗</span
+              ><span><b>Build in good company</b><small>Your idea deserves a team.</small></span>
+            </div>
+            <div class="sparkle sparkle-a">✳</div>
+            <div class="sparkle sparkle-b">✦</div>
+            <div class="sparkle sparkle-c">✳</div>
+          </div>
+        </div>
+        <div class="ticker">
+          <span>IDEAS THAT MOVE</span><i>✳</i><span>PEOPLE WHO GET IT</span><i>✳</i
+          ><span>OPPORTUNITIES THAT OPEN DOORS</span><i>✳</i><span>IDEAS THAT MOVE</span>
+        </div>
+        <section class="landing-section">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">A BETTER WAY TO BEGIN</div>
+              <h2>Every big thing starts <span>somewhere.</span></h2>
+            </div>
+            <p>
+              Start New is a space for curious people to turn a spark of an idea into something real —
+              together.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-icon lavender">✳</span>
+              <h3>Share your spark</h3>
+              <p>Put your idea out there, get thoughtful feedback, and find people who see the potential.</p>
+              <span class="feature-number">01</span>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon peach">⌕</span>
+              <h3>Find your people</h3>
+              <p>Meet founders, makers, mentors, and investors who can help you move forward.</p>
+              <span class="feature-number">02</span>
+            </article>
+            <article class="feature-card">
+              <span class="feature-icon mint">↗</span>
+              <h3>Make it happen</h3>
+              <p>Build your network, discover opportunities, and take the next step with confidence.</p>
+              <span class="feature-number">03</span>
+            </article>
+          </div>
+        </section>
+        <section class="landing-cta">
+          <div>
+            <div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div>
+            <h2>Let's make something<br /><span>worth talking about.</span></h2>
+          </div>
+          <button class="button button-light button-large" id="bottom-join">
+            Create your free account <span>↗</span>
+          </button>
+          <div class="cta-orb"></div>
+        </section>
+      </section>
+
+      <section class="view content-view" id="view-dashboard">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">YOUR SPACE TO GROW</div>
+            <h1>Welcome back, <span id="welcome-name">builder</span>.</h1>
+            <p>Keep the momentum going. Your next connection could change everything.</p>
+          </div>
+          <button class="button button-primary" data-view="publish">＋ Share an idea</button>
+        </div>
+        <div class="dashboard-grid">
+          <div class="dashboard-main">
+            <div class="stats-row" id="dashboard-stats"></div>
+            <div class="panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">YOUR WORK IN PROGRESS</span>
+                  <h2>Your recent ideas</h2>
+                </div>
+                <button class="text-button" data-view="publish">Share another →</button>
+              </div>
+              <div id="dashboard-ideas" class="idea-grid"></div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">FROM YOUR NETWORK</span>
+                  <h2>Latest from your people</h2>
+                </div>
+                <button class="text-button" data-view="feed">View your feed →</button>
+              </div>
+              <div id="dashboard-network" class="idea-grid"></div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">PICKED FOR YOU</span>
+                  <h2>Ideas to explore</h2>
+                </div>
+                <button class="text-button" data-view="explore">Explore all ideas →</button>
+              </div>
+              <div id="dashboard-recommended-ideas" class="idea-grid"></div>
+            </div>
+          </div>
+          <aside class="dashboard-side">
+            <div class="panel welcome-panel">
+              <span class="welcome-spark">✳</span>
+              <h3>Good ideas get better together.</h3>
+              <p>Share what you're working on and let the community help you take it further.</p>
+              <button class="button button-primary button-full" data-view="publish">Post an idea ↗</button>
+              <div class="quick-links">
+                <button class="text-button" data-view="messages">Open messages →</button
+                ><button class="text-button" data-view="ai">Try Start New AI →</button>
+              </div>
+              <label class="privacy-setting"
+                ><input id="privacy-toggle" type="checkbox" /> Private profile</label
+              ><button class="text-button" id="privacy-save">Save privacy setting</button
+              ><button class="text-button" id="profile-edit-open">Edit your profile →</button>
+            </div>
+            <div class="panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">PEOPLE YOU MAY LIKE</span>
+                  <h3>Meet someone new</h3>
+                </div>
+                <button class="text-button" data-view="people">See all</button>
+              </div>
+              <div id="dashboard-recommended-people" class="compact-list"></div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">YOUR INBOX</span>
+                  <h3>Connection requests</h3>
+                </div>
+                <button class="text-button" data-view="people">See all</button>
+              </div>
+              <div id="dashboard-requests" class="compact-list"></div>
+            </div>
+            <div class="panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">UP NEXT</span>
+                  <h3>Startup headlines</h3>
+                </div>
+              </div>
+              <div id="dashboard-news" class="news-list"><p class="muted">Loading current news…</p></div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view content-view" id="view-profile">
+        <div class="page-heading profile-page-heading">
+          <div>
+            <div class="eyebrow">YOUR START NEW PROFILE</div>
+            <h1>Your <span>profile.</span></h1>
+            <p>A place for your story, your ideas and the people you meet along the way.</p>
+          </div>
+          <button class="button button-outline" id="profile-edit-page-button">Edit profile</button>
+        </div>
+        <div id="profile-page-content">
+          <div class="profile-page-card panel">
+            <div class="profile-cover"></div>
+            <div class="profile-page-main">
+              <img
+                id="profile-page-avatar"
+                class="profile-page-avatar"
+                src="/frontend/images/default-avatar.svg"
+                alt=""
+              />
+              <div class="profile-page-identity">
+                <span class="eyebrow" id="profile-page-role">START NEW MEMBER</span>
+                <h2 id="profile-page-name">Your name</h2>
+                <p class="profile-page-handle" id="profile-page-handle">@username</p>
+                <p class="profile-page-bio" id="profile-page-bio"></p>
+                <div id="profile-page-interests" class="profile-interests"></div>
+                <div class="profile-page-buttons" id="profile-page-actions"></div>
+              </div>
+              <div class="profile-counts">
+                <button
+                  class="profile-count-button"
+                  type="button"
+                  data-profile-stat="followers"
+                  aria-label="View followers"
+                >
+                  <strong id="profile-page-followers">0</strong><span>Followers</span>
+                </button>
+                <button
+                  class="profile-count-button"
+                  type="button"
+                  data-profile-stat="following"
+                  aria-label="View following"
+                >
+                  <strong id="profile-page-following">0</strong><span>Following</span>
+                </button>
+                <button
+                  class="profile-count-button"
+                  type="button"
+                  data-profile-stat="ideas"
+                  aria-label="View ideas"
+                >
+                  <strong id="profile-page-idea-count">0</strong><span>Ideas</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="profile-content-grid">
+            <section class="panel profile-ideas-panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">IDEAS & PROJECTS</span>
+                  <h2 id="profile-ideas-heading">Ideas</h2>
+                </div>
+                <button class="text-button" id="profile-share-idea">＋ Share an idea</button>
+              </div>
+              <div id="profile-ideas-grid" class="idea-grid"></div>
+            </section>
+            <aside class="panel profile-activity-panel">
+              <div class="panel-heading">
+                <div>
+                  <span class="eyebrow">COMMENTS & MESSAGES</span>
+                  <h2>Recent updates</h2>
+                </div>
+                <span class="activity-live-dot" aria-label="Recent activity"></span>
+              </div>
+              <div id="profile-activity-list" class="activity-list"></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="view content-view" id="view-explore">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">FRESH THINKING, GOOD PEOPLE</div>
+            <h1>Explore <span>what's possible.</span></h1>
+            <p>Discover early ideas, meet the people behind them, and find your next opportunity.</p>
+          </div>
+        </div>
+        <div class="search-panel">
+          <label class="search-box"
+            ><span>⌕</span
+            ><input id="idea-search" type="search" placeholder="Search ideas, problems or solutions…" /><kbd
+              >↵</kbd
+            ></label
+          ><select id="idea-category" aria-label="Filter by category">
+            <option value="">All categories</option>
+            <option>Technology</option>
+            <option>Climate</option>
+            <option>Health</option>
+            <option>Education</option>
+            <option>Food</option>
+            <option>Finance</option>
+            <option>Community</option>
+            <option>Other</option></select
+          ><select id="idea-stage" aria-label="Filter by stage">
+            <option value="">All stages</option>
+            <option>Idea</option>
+            <option>Research</option>
+            <option>Prototype</option>
+            <option>Launched</option>
+            <option>Growing</option>
+          </select>
+        </div>
+        <section class="panel recommendation-panel">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">BASED ON YOUR INTERESTS</span>
+              <h2>Ideas picked for you</h2>
+            </div>
+          </div>
+          <div id="explore-recommended-ideas" class="idea-grid idea-grid-wide">
+            <p class="muted">Log in to get personalized recommendations.</p>
+          </div>
+        </section>
+        <div class="section-toolbar">
+          <h2>Ideas worth exploring</h2>
+          <span id="idea-result-count" class="muted"></span>
+        </div>
+        <div id="explore-ideas" class="idea-grid idea-grid-wide">
+          <div class="loading-card">Finding good ideas…</div>
+        </div>
+        <div class="resource-grid">
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <span class="eyebrow">A LITTLE PERSPECTIVE</span>
+                <h3>Startup news</h3>
+              </div>
+              <button class="text-button" id="news-refresh">Refresh</button>
+            </div>
+            <div id="news-list" class="news-list"><p class="muted">Loading news…</p></div>
+          </section>
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <span class="eyebrow">THINKING GLOBALLY</span>
+                <h3>Currency snapshot</h3>
+              </div>
+              <select id="currency-base" aria-label="Base currency">
+                <option>USD</option>
+                <option>GBP</option>
+                <option>EUR</option>
+              </select>
+            </div>
+            <div id="currency-list" class="currency-list"><p class="muted">Loading exchange rates…</p></div>
+            <p class="muted data-attribution">
+              Rates provided by
+              <a href="https://frankfurter.app/" target="_blank" rel="noopener noreferrer">Frankfurter</a>.
+            </p>
+          </section>
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <span class="eyebrow">LOCAL CONDITIONS</span>
+                <h3>London weather</h3>
+              </div>
+              <a class="text-button" href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer"
+                >Open-Meteo</a
+              >
+            </div>
+            <div id="weather-list" class="currency-list"><p class="muted">Loading current weather…</p></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view content-view" id="view-feed">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">A COMMUNITY IN MOTION</div>
+            <h1>Your <span>people. Your feed.</span></h1>
+            <p>Ideas shared by people you follow.</p>
+          </div>
+          <button class="button button-outline" data-view="people">Find people →</button>
+        </div>
+        <div id="feed-ideas" class="idea-grid idea-grid-wide"></div>
+      </section>
+
+      <section class="view content-view" id="view-people">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">MEET THE PEOPLE BEHIND THE IDEAS</div>
+            <h1>Find your <span>kind of people.</span></h1>
+            <p>Connect with builders, mentors and curious minds who can help your idea grow.</p>
+          </div>
+        </div>
+        <label class="search-box people-search"
+          ><span>⌕</span><input id="people-search" type="search" placeholder="Search by name or username…"
+        /></label>
+        <section class="panel recommendation-panel">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">BASED ON YOUR INTERESTS</span>
+              <h2>People you may like</h2>
+            </div>
+          </div>
+          <div id="people-recommendations" class="people-grid">
+            <p class="muted">Log in to get personalized recommendations.</p>
+          </div>
+        </section>
+        <div class="people-layout">
+          <div>
+            <div class="section-toolbar">
+              <h2>Community</h2>
+              <span id="people-count" class="muted"></span>
+            </div>
+            <div id="people-grid" class="people-grid"></div>
+          </div>
+          <aside class="panel requests-panel">
+            <div class="panel-heading">
+              <div>
+                <span class="eyebrow">YOUR COMMUNITY</span>
+                <h3>Follow requests</h3>
+              </div>
+            </div>
+            <div class="request-tabs">
+              <button class="active" data-request-tab="received">Received</button
+              ><button data-request-tab="sent">Sent</button>
+            </div>
+            <div id="requests-list" class="compact-list"></div>
+            <div class="panel-divider"></div>
+            <div class="panel-heading">
+              <div>
+                <span class="eyebrow">YOUR CONNECTIONS</span>
+                <h3 id="connections-title">Following</h3>
+              </div>
+            </div>
+            <div class="request-tabs connection-tabs">
+              <button class="active" data-connection-tab="following">Following</button
+              ><button data-connection-tab="followers">Followers</button>
+            </div>
+            <div id="following-list" class="compact-list"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view content-view" id="view-publish">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">PUT YOUR IDEA INTO THE WORLD</div>
+            <h1>Let's make it <span>real.</span></h1>
+            <p>Tell the community what's on your mind. You can refine it as you go.</p>
+          </div>
+        </div>
+        <div class="form-layout">
+          <form id="idea-form" class="panel form-panel">
+            <div class="form-section-title">
+              <span>01</span>
+              <div>
+                <h2>The big idea</h2>
+                <p>Start with the essentials. What are you building?</p>
+              </div>
+            </div>
+            <label
+              >Idea title<input
+                name="title"
+                required
+                maxlength="120"
+                placeholder="A name people will remember"
+            /></label>
+            <div class="form-row">
+              <label
+                >Category<select name="category">
+                  <option>Technology</option>
+                  <option>Climate</option>
+                  <option>Health</option>
+                  <option>Education</option>
+                  <option>Food</option>
+                  <option>Finance</option>
+                  <option>Community</option>
+                  <option>Other</option>
+                </select></label
+              ><label
+                >Development stage<select name="stage">
+                  <option>Idea</option>
+                  <option>Research</option>
+                  <option>Prototype</option>
+                  <option>Launched</option>
+                  <option>Growing</option>
+                </select></label
+              >
+            </div>
+            <label
+              >Describe your idea<textarea
+                name="description"
+                required
+                maxlength="5000"
+                rows="5"
+                placeholder="What's the idea, and what makes it interesting?"
+              ></textarea>
+            </label>
+            <div class="form-row">
+              <label
+                >Problem you're solving<textarea
+                  name="problem"
+                  rows="3"
+                  maxlength="2000"
+                  placeholder="What challenge are you tackling?"
+                ></textarea></label
+              ><label
+                >Your proposed solution<textarea
+                  name="solution"
+                  rows="3"
+                  maxlength="2000"
+                  placeholder="How will your idea help?"
+                ></textarea>
+              </label>
+            </div>
+            <div class="form-section-title form-section-spaced">
+              <span>02</span>
+              <div>
+                <h2>Help it grow</h2>
+                <p>Give people a few more details and a way to jump in.</p>
+              </div>
+            </div>
+            <div class="form-row">
+              <label
+                >Who is it for?<input
+                  name="targetAudience"
+                  maxlength="500"
+                  placeholder="Your first customers or community" /></label
+              ><label
+                >How could it earn?<input
+                  name="businessModel"
+                  maxlength="500"
+                  placeholder="Subscription, marketplace, grants…"
+              /></label>
+            </div>
+            <div class="form-row">
+              <label
+                >What kind of help do you need?<input
+                  name="helpRequired"
+                  maxlength="300"
+                  placeholder="Design, technical skills, advice…" /></label
+              ><label
+                >Funding needed (optional)<input
+                  name="fundingAmount"
+                  maxlength="100"
+                  placeholder="e.g. £5,000"
+              /></label>
+            </div>
+            <label class="upload-field"
+              >Add an image (optional)<input
+                type="file"
+                id="idea-image"
+                accept="image/png,image/jpeg,image/webp"
+              /><span class="upload-hint">PNG, JPG or WebP · up to 8 MB</span></label
+            >
+            <label class="upload-field"
+              >Add a supporting document (optional)<input
+                type="file"
+                id="idea-document"
+                accept="application/pdf"
+              /><span class="upload-hint">PDF · up to 8 MB</span></label
+            >
+            <div id="idea-form-message" class="form-message hidden" role="status"></div>
+            <button class="button button-primary button-large" type="submit">
+              Share your idea <span>↗</span>
+            </button>
+          </form>
+          <aside class="panel aside-tip">
+            <span class="tip-icon">✳</span>
+            <h3>Progress, not perfection.</h3>
+            <p>
+              Your idea doesn't need to be polished to be worth sharing. The best feedback often comes early.
+            </p>
+            <div class="tip-rule"></div>
+            <p class="muted">
+              Need a starting point? Try the Start New AI Assistant after you share your idea.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view content-view" id="view-messages">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">GOOD CONVERSATIONS MOVE IDEAS FORWARD</div>
+            <h1>Your <span>messages.</span></h1>
+            <p>Private conversations with people in your community.</p>
+          </div>
+          <button class="button button-primary" id="new-message-button">＋ Start a conversation</button>
+        </div>
+        <div class="messages-shell panel">
+          <aside class="conversation-sidebar">
+            <div class="conversation-heading">
+              <h2>Conversations</h2>
+              <span id="unread-count" class="badge hidden"></span>
+            </div>
+            <div id="conversation-list" class="conversation-list"></div>
+          </aside>
+          <section class="conversation-main" id="conversation-main">
+            <div class="empty-conversation">
+              <span>✉</span>
+              <h3>Your next good conversation starts here.</h3>
+              <p>Choose an existing conversation or start a new one with someone from the community.</p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view content-view" id="view-funding">
+        <div class="funding-hero">
+          <div>
+            <div class="eyebrow">GOOD IDEAS DESERVE A CHANCE</div>
+            <h1>Make the right<br /><span>connection.</span></h1>
+            <p>
+              Discover founders looking for support, share what you need, and find people who believe in what
+              you're building.
+            </p>
+            <button class="button button-light" id="funding-open">Share a funding opportunity ↗</button>
+          </div>
+          <div class="funding-shape"><span>↗</span></div>
+        </div>
+        <div class="section-toolbar">
+          <div>
+            <div class="eyebrow">OPEN OPPORTUNITIES</div>
+            <h2>Find a reason to connect</h2>
+          </div>
+        </div>
+        <div id="funding-list" class="funding-grid"></div>
+      </section>
+
+      <!-- AI evaluation and planning share the workspace with conversational idea Q&A. -->
+      <section class="view content-view" id="view-ai">
+        <div class="page-heading">
+          <div>
+            <div class="eyebrow">A THOUGHTFUL FIRST SPARRING PARTNER</div>
+            <h1>Meet Start New <span>AI.</span></h1>
+            <p>
+              Get feedback or make a plan for your idea. The Q&amp;A assistant is available at the bottom of
+              every page. Use its guidance to think—not as a substitute for research or professional advice.
+            </p>
+          </div>
+        </div>
+        <div class="ai-layout">
+          <form id="ai-form" class="panel form-panel">
+            <label
+              >Your business idea<textarea
+                name="idea"
+                rows="7"
+                maxlength="5000"
+                required
+                placeholder="Describe the idea you want to explore…"
+              ></textarea>
+            </label>
+            <div class="form-row">
+              <label
+                >What would help most?<select name="mode">
+                  <option value="evaluate">Evaluate my idea</option>
+                  <option value="plan">Build a starter business plan</option>
+                </select></label
+              ><button class="button button-primary" type="submit">Get thoughtful feedback ✦</button>
+            </div>
+            <div id="ai-message" class="form-message hidden" role="status"></div>
+          </form>
+          <section id="ai-result" class="panel ai-result">
+            <div class="ai-placeholder">
+              <span>✦</span>
+              <h3>A new perspective can unlock a new path.</h3>
+              <p>Share your idea and choose the kind of guidance you're looking for.</p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="global-ai-assistant content-view" aria-labelledby="ai-chat-title">
+        <div class="panel ai-chat-panel">
+          <div class="ai-chat-heading">
+            <div>
+              <span class="eyebrow">IDEA Q&amp;A</span>
+              <h2 id="ai-chat-title">Ask the assistant</h2>
+            </div>
+            <button id="ai-chat-clear" class="text-button" type="button">New chat</button>
+          </div>
+          <p class="muted">Ask questions and explore follow-up ideas with Start New AI.</p>
+          <div class="ai-chat-context-heading">
+            <label for="ai-chat-idea">Idea context <span class="muted">(optional)</span></label
+            ><button id="ai-chat-copy-idea" class="text-button" type="button">Use evaluation idea</button>
+          </div>
+          <textarea
+            id="ai-chat-idea"
+            class="ai-chat-context"
+            rows="3"
+            maxlength="5000"
+            placeholder="Describe your idea, or copy it from the evaluation form…"
+          ></textarea>
+          <div
+            id="ai-chat-messages"
+            class="ai-chat-messages"
+            role="log"
+            aria-live="polite"
+            aria-relevant="additions text"
+          ></div>
+          <form id="ai-chat-form" class="ai-chat-form">
+            <label for="ai-chat-question">Your question</label
+            ><textarea
+              id="ai-chat-question"
+              name="message"
+              rows="2"
+              maxlength="2000"
+              required
+              placeholder="What should I test with my first customers?"
+            ></textarea
+            ><button class="button button-primary" type="submit">Ask ✦</button>
+          </form>
+          <p id="ai-chat-status" class="form-message hidden" role="status"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#" data-view="landing"
+        ><span class="brand-mark"><span></span><span></span><span></span></span
+        ><span>start<span class="brand-accent">new</span></span></a
+      >
+      <p>Your idea. Your people. Your opportunity.</p>
+      <span>Built for what's next. <span id="footer-year"></span></span>
+    </footer>
+
+    <div
+      class="modal-backdrop hidden"
+      id="auth-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="auth-title"
+    >
+      <div class="modal-card auth-card">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div class="modal-brand">✳</div>
+        <div class="eyebrow">GOOD TO HAVE YOU HERE</div>
+        <h2 id="auth-title">Log in to Start New</h2>
+        <p id="auth-subtitle">Your people and ideas are right where you left them.</p>
+        <div class="auth-tabs">
+          <button class="active" data-auth-tab="login">Log in</button
+          ><button data-auth-tab="register">Create account</button>
+        </div>
+        <form id="login-form" class="auth-form">
+          <label
+            >Email or username<input
+              name="identifier"
+              required
+              autocomplete="username"
+              placeholder="you@example.com" /></label
+          ><label
+            >Password<input
+              name="password"
+              type="password"
+              required
+              autocomplete="current-password"
+              placeholder="Your password"
+          /></label>
+          <div id="login-message" class="form-message hidden" role="status"></div>
+          <button class="button button-primary button-full button-large" type="submit">
+            Log in <span>↗</span>
+          </button>
+        </form>
+        <form id="register-form" class="auth-form hidden">
+          <label
+            >Your name<input
+              name="name"
+              required
+              maxlength="100"
+              autocomplete="name"
+              placeholder="How should we call you?"
+          /></label>
+          <div class="form-row">
+            <label
+              >Username<input
+                name="username"
+                required
+                minlength="3"
+                maxlength="30"
+                pattern="[A-Za-z0-9_]+"
+                autocomplete="username"
+                placeholder="yourname" /></label
+            ><label>Your role<input name="role" maxlength="80" placeholder="Founder, designer…" /></label>
+          </div>
+          <label
+            >Email address<input
+              name="email"
+              type="email"
+              required
+              autocomplete="email"
+              placeholder="you@example.com" /></label
+          ><label
+            >Password<input
+              name="password"
+              type="password"
+              required
+              minlength="8"
+              maxlength="128"
+              autocomplete="new-password"
+              placeholder="At least 8 characters" /></label
+          ><label
+            >Confirm password<input
+              name="passwordConfirm"
+              type="password"
+              required
+              minlength="8"
+              maxlength="128"
+              autocomplete="new-password"
+              placeholder="Enter your password again" /></label
+          ><label
+            >Interests (comma-separated)<input
+              name="interests"
+              maxlength="300"
+              placeholder="Climate, design, education…" /></label
+          ><label
+            >A little about you<textarea
+              name="bio"
+              maxlength="300"
+              rows="2"
+              placeholder="What are you interested in?"
+            ></textarea></label
+          ><label
+            >Profile picture (optional)<input
+              name="profilePicture"
+              type="file"
+              accept="image/png,image/jpeg,image/webp" /></label
+          ><label class="check-label"
+            ><input name="private" type="checkbox" /> Make my profile private (approve follow requests)</label
+          >
+          <div id="register-message" class="form-message hidden" role="status"></div>
+          <button class="button button-primary button-full button-large" type="submit">
+            Create your account <span>↗</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div
+      class="modal-backdrop hidden"
+      id="funding-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="funding-title"
+    >
+      <div class="modal-card">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div class="eyebrow">START A CONVERSATION</div>
+        <h2 id="funding-title">Share your opportunity</h2>
+        <p>Let the community know what kind of support could move your idea forward.</p>
+        <form id="funding-form" class="auth-form">
+          <label
+            >Funding amount<input name="amount" required maxlength="100" placeholder="e.g. £10,000" /></label
+          ><label
+            >What will the funds help you do?<textarea
+              name="purpose"
+              required
+              rows="3"
+              maxlength="1000"
+            ></textarea></label
+          ><label
+            >Tell us about the business<textarea
+              name="description"
+              required
+              rows="4"
+              maxlength="3000"
+            ></textarea>
+          </label>
+          <div class="form-row">
+            <label
+              >Development stage<select name="stage">
+                <option>Idea</option>
+                <option>Research</option>
+                <option>Prototype</option>
+                <option>Launched</option>
+                <option>Growing</option>
+              </select></label
+            ><label class="check-label"
+              ><input name="partnersWanted" type="checkbox" /> Also open to partners</label
+            >
+          </div>
+          <div id="funding-message" class="form-message hidden" role="status"></div>
+          <button class="button button-primary button-full" type="submit">Post opportunity ↗</button>
+        </form>
+      </div>
+    </div>
+
+    <div
+      class="modal-backdrop hidden"
+      id="profile-edit-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="profile-edit-title"
+    >
+      <div class="modal-card">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div class="eyebrow">YOUR START NEW PROFILE</div>
+        <h2 id="profile-edit-title">Make it yours</h2>
+        <p>Help people discover what you care about and what you can bring to a project.</p>
+        <form id="profile-edit-form" class="auth-form">
+          <label>Your name<input name="name" required maxlength="100" /></label
+          ><label>Professional role<input name="role" maxlength="80" /></label
+          ><label
+            >Interests (comma-separated)<input
+              name="interests"
+              maxlength="300"
+              placeholder="Climate, design, education…" /></label
+          ><label>Short biography<textarea name="bio" rows="3" maxlength="300"></textarea></label>
+          <div class="password-change-section">
+            <h3>Change password</h3>
+            <p>Leave these fields blank to keep your current password.</p>
+            <label
+              >Current password<input
+                name="currentPassword"
+                type="password"
+                maxlength="128"
+                autocomplete="current-password" /></label
+            ><label
+              >New password<input
+                name="newPassword"
+                type="password"
+                minlength="8"
+                maxlength="128"
+                autocomplete="new-password"
+                placeholder="At least 8 characters" /></label
+            ><label
+              >Confirm new password<input
+                name="confirmPassword"
+                type="password"
+                maxlength="128"
+                autocomplete="new-password"
+            /></label>
+          </div>
+          <label
+            >Update profile picture (optional)<input
+              name="profilePicture"
+              type="file"
+              accept="image/png,image/jpeg,image/webp"
+          /></label>
+          <div id="profile-edit-message" class="form-message hidden" role="status"></div>
+          <button class="button button-primary button-full" type="submit">Save profile ↗</button>
+        </form>
+      </div>
+    </div>
+
+    <div
+      class="modal-backdrop hidden"
+      id="detail-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="detail-title"
+    >
+      <div class="modal-card detail-card">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div id="idea-detail"></div>
+      </div>
+    </div>
+    <div
+      class="modal-backdrop hidden"
+      id="profile-connections-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="profile-connections-title"
+    >
+      <div class="modal-card profile-connections-card">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div class="eyebrow">COMMUNITY</div>
+        <h2 id="profile-connections-title">Followers</h2>
+        <p id="profile-connections-description">People in this member's network.</p>
+        <div
+          id="profile-connections-list"
+          class="compact-list profile-connections-list"
+          aria-live="polite"
+        ></div>
+      </div>
+    </div>
+    <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="/frontend/js/auth.js" defer></script>
+    <script src="/frontend/js/ideas.js" defer></script>
+    <script src="/frontend/js/social.js" defer></script>
+    <script src="/frontend/js/messaging.js" defer></script>
+    <script src="/frontend/js/ai.js" defer></script>
+    <script src="/frontend/js/app.js" defer></script>
+  </body>
+</html>

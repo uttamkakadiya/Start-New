@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679657f"
+    },
+    "followedId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "followerId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905512"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796580"
+    },
+    "followerId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "followedId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905514"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796581"
+    },
+    "followedId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "followerId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905516"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796582"
+    },
+    "followerId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "followedId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905517"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796583"
+    },
+    "followedId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "followerId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905518"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796584"
+    },
+    "followerId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "followedId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905518"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796585"
+    },
+    "followedId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "followerId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905519"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796586"
+    },
+    "followerId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "followedId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905520"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796587"
+    },
+    "followedId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "followerId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905521"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796588"
+    },
+    "followerId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "followedId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905521"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796589"
+    },
+    "followedId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "followerId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905522"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679658a"
+    },
+    "followerId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "followedId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905525"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740b3352438ee20303f51"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588851621"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740b5352438ee20303f53"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588853045"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740b7352438ee20303f55"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588855069"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740b8352438ee20303f57"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588856281"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740b9352438ee20303f59"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588857982"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740ba352438ee20303f5b"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "3d374004-d812-4fa1-a614-563b14b49884",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588858767"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af740ec352438ee20303f5d"
+    },
+    "followerId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "followedId": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588908403"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af741d0d8fbdbe093ecec0a"
+    },
+    "followerId": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+    "followedId": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794589136110"
+      }
+    }
+  }
+]

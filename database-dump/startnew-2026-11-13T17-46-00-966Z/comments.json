@@ -1,0 +1,167 @@
+[
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679658b"
+    },
+    "seedKey": "demo-comment-1",
+    "contentId": "6af73149cda02392e6796573",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794581305526"
+      }
+    },
+    "text": "Love the local-first approach. Have you talked with a refill shop about their busiest customer questions?",
+    "userId": "75f9826a-1f3a-42ef-95c1-7b602722baeb"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679658c"
+    },
+    "seedKey": "demo-comment-2",
+    "contentId": "6af73149cda02392e6796573",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794577705535"
+      }
+    },
+    "text": "This could work brilliantly with a community launch challenge.",
+    "userId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679658d"
+    },
+    "seedKey": "demo-comment-3",
+    "contentId": "6af73149cda02392e6796574",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794574105537"
+      }
+    },
+    "text": "A shared tool library could be a great first neighbourhood pilot.",
+    "userId": "ec644956-b451-4d25-ad25-5c753a31cdb3"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679658e"
+    },
+    "seedKey": "demo-comment-4",
+    "contentId": "6af73149cda02392e6796575",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794570505537"
+      }
+    },
+    "text": "Short sessions feel much less intimidating for learners. Nice direction!",
+    "userId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679658f"
+    },
+    "seedKey": "demo-comment-5",
+    "contentId": "6af73149cda02392e6796577",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794566905538"
+      }
+    },
+    "text": "I would join a repair-skills session. This feels genuinely welcoming.",
+    "userId": "3162b87e-1e88-45b2-9a04-e749c201ec75"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796590"
+    },
+    "seedKey": "demo-comment-6",
+    "contentId": "6af73149cda02392e6796579",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794563305538"
+      }
+    },
+    "text": "Love the focus on realistic routines rather than perfect meal plans.",
+    "userId": "3d374004-d812-4fa1-a614-563b14b49884"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796591"
+    },
+    "seedKey": "demo-comment-7",
+    "contentId": "6af73149cda02392e679657b",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794559705539"
+      }
+    },
+    "text": "The consent-first idea is important. Families need trust built in from day one.",
+    "userId": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796592"
+    },
+    "seedKey": "demo-comment-8",
+    "contentId": "6af73149cda02392e679657d",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794556105541"
+      }
+    },
+    "text": "A clear freelancer-focused first version sounds like a strong way to test this.",
+    "userId": "75f9826a-1f3a-42ef-95c1-7b602722baeb"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796593"
+    },
+    "seedKey": "demo-comment-9",
+    "contentId": "6af73149cda02392e679657e",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794552505542"
+      }
+    },
+    "text": "The local cause connection makes the learning feel more motivating.",
+    "userId": "ec644956-b451-4d25-ad25-5c753a31cdb3"
+  },
+  {
+    "_id": {
+      "$oid": "6af73d6993480d42857ebf93"
+    },
+    "contentId": "6af73c4893480d42857ebf92",
+    "userId": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "text": "Live availability and simple reservations could save drivers a lot of time. A map view would make this especially useful.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588009188"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73d6993480d42857ebf95"
+    },
+    "contentId": "6af73c4893480d42857ebf92",
+    "userId": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "text": "The QR-code entry and booking-expiry alerts are thoughtful touches. This could work really well for campuses and shopping centres.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794588009242"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af741e4d8fbdbe093ecec0c"
+    },
+    "contentId": "6af73c4893480d42857ebf92",
+    "userId": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+    "text": "ill help u for this idea in development",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794589156115"
+      }
+    }
+  }
+]

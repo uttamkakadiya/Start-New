@@ -1,0 +1,192 @@
+[
+  {
+    "_id": {
+      "$oid": "6af72c457f18c8024ca753f8"
+    },
+    "id": "13e1a0e9-ed8f-4893-8326-a6850edc7a0e",
+    "name": "Uttam",
+    "username": "kakadiya",
+    "email": "uttam123@gmail.com",
+    "passwordHash": "cb4e049e046810629ada010c775b260e:f5377d19802d60ec31da4a7f8e4631c8375ef84c71e54304ad6a5a0ce3889c6005448488839ebdc08360b671b194c303e60eb663cd9ffec83b913633c9e41740",
+    "bio": "traveler",
+    "interests": [
+      "business"
+    ],
+    "role": "Founder",
+    "private": false,
+    "profilePicture": "/uploads/profiles/25974312-95d2-4457-91d9-70f182267d6f.png",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794583621799"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679656d"
+    },
+    "username": "amaragreen",
+    "bio": "Building ways for neighbours to waste less and share more.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905244"
+      }
+    },
+    "email": "amara@startnew.demo",
+    "id": "3162b87e-1e88-45b2-9a04-e749c201ec75",
+    "interests": [
+      "Climate",
+      "Community",
+      "Circular economy"
+    ],
+    "name": "Amara Okafor",
+    "passwordHash": "8f5d890eda54f83c4fb003495bc52f4f:41a3668dffafd13a128828b44923f4a4cd24ac2c3fb2e17b5fd358551868ada2c196110bb5db9861c923cb0ccf4f123b5f359e4dec4996f5b8bb686edcf14e9c",
+    "private": false,
+    "profilePicture": "/frontend/images/profiles/amara-okafor.svg",
+    "role": "Climate founder"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679656e"
+    },
+    "username": "leobuilds",
+    "bio": "Turning everyday problems into useful, human-centred digital tools.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905286"
+      }
+    },
+    "email": "leo@startnew.demo",
+    "id": "75f9826a-1f3a-42ef-95c1-7b602722baeb",
+    "interests": [
+      "Technology",
+      "Education",
+      "Product design"
+    ],
+    "name": "Leo Chen",
+    "passwordHash": "c4b8c9b95fc014055e1baf6f6716a28b:eefd32a04bd801eb68f0b5c97c01d183e15a2f2a2447385b20857968b96f1dd12516876a4ee7fdaf9277ac2b7df81af91b389e9ece721d8a325839721c9c45c8",
+    "private": false,
+    "profilePicture": "/frontend/images/profiles/leo-chen.svg",
+    "role": "Product designer"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e679656f"
+    },
+    "username": "sofialearns",
+    "bio": "Helping young people find confidence, skills and their next opportunity.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905326"
+      }
+    },
+    "email": "sofia@startnew.demo",
+    "id": "84daef20-e77c-4f9c-9812-7f8b31eb9c3a",
+    "interests": [
+      "Education",
+      "Community",
+      "Mentoring"
+    ],
+    "name": "Sofia Alvarez",
+    "passwordHash": "2a435291b1d7ac80fb187e775a4d03ff:0c6f99cd6eb8dc3e074d1a1ea1899de9e595e7f0ec7f972467cb58c929311be6ee8970e9db522dc5f95a638e37c8a7d797e95f43f2134dc746f6689b83b4b031",
+    "private": false,
+    "profilePicture": "/frontend/images/profiles/sofia-alvarez.svg",
+    "role": "Educator & mentor"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796570"
+    },
+    "username": "noahcooks",
+    "bio": "Making good local food easier to find, share and enjoy.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905365"
+      }
+    },
+    "email": "noah@startnew.demo",
+    "id": "ec644956-b451-4d25-ad25-5c753a31cdb3",
+    "interests": [
+      "Food",
+      "Technology",
+      "Sustainability"
+    ],
+    "name": "Noah Williams",
+    "passwordHash": "a30e347f981af64a643d2c5b7fc40f69:b32067a4af982d7ea081de0522768ac246c85e96348afca43f949878fbb24de39076a95e1bf63b5acf7ab8b20e22406814a357712377888f085e040293390aee",
+    "private": false,
+    "profilePicture": "/frontend/images/profiles/noah-williams.svg",
+    "role": "Food entrepreneur"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796571"
+    },
+    "username": "priyamakescare",
+    "bio": "Exploring kinder, more accessible ways to support everyday wellbeing.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905407"
+      }
+    },
+    "email": "priya@startnew.demo",
+    "id": "3d374004-d812-4fa1-a614-563b14b49884",
+    "interests": [
+      "Health",
+      "Technology",
+      "Accessibility"
+    ],
+    "name": "Priya Shah",
+    "passwordHash": "bfcd84a9dc9874cedfd7ba63455c316b:fb4f5538d9aa8ff865cee93e04e95f48d143e9e29669c26cbd0009c1081c1bf4f36a613abf1431a48c46c565691be5be71d8a960dce149d38ccd16b76437ba60",
+    "private": false,
+    "profilePicture": "/frontend/images/profiles/priya-shah.svg",
+    "role": "HealthTech founder"
+  },
+  {
+    "_id": {
+      "$oid": "6af73149cda02392e6796572"
+    },
+    "username": "ethanledger",
+    "bio": "Making money tools clearer and fairer for people starting out.",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794584905448"
+      }
+    },
+    "email": "ethan@startnew.demo",
+    "id": "422475bd-826b-45d0-8c7f-ba1af9c4f3a7",
+    "interests": [
+      "Finance",
+      "Technology",
+      "Financial inclusion"
+    ],
+    "name": "Ethan Brooks",
+    "passwordHash": "ed9224a102e5d36a2658749e11b281e3:9caddab7d2d88643e9cff4b656d5f046a636d62c426ce3e42015ded65670cb285c4c22f87fbdbe6c214b5bdc9437d0599ba78315c4a79022b110501ab5f15764",
+    "private": false,
+    "profilePicture": "/frontend/images/profiles/ethan-brooks.svg",
+    "role": "FinTech builder"
+  },
+  {
+    "_id": {
+      "$oid": "6af735a193480d42857ebf8b"
+    },
+    "id": "39007a9e-c705-42f2-9479-794c6c1703db",
+    "name": "om",
+    "username": "sonani",
+    "email": "om123@gmail.com",
+    "passwordHash": "22004bc1e8707f24f7ea2cfb24b682ff:b87be9b319e883a3b591d7963b919bc6a54c3f799685e66678ae7cb0f3ba4be2e328ae87257c1b730634e1c86d639c85d3728723824c1a1e90aa10d98e07c4fe",
+    "bio": "",
+    "interests": [
+      "education",
+      "cyber security",
+      "developer"
+    ],
+    "role": "internship",
+    "private": false,
+    "profilePicture": "/uploads/profiles/65c9c291-4b09-4534-ad86-f00ebd505563.jpg",
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1794586017812"
+      }
+    }
+  }
+]

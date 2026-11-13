@@ -1,0 +1,61 @@
+{
+  "database": "startnew",
+  "exportedAt": "2026-11-13T17:46:01.005Z",
+  "collections": [
+    {
+      "name": "followRequests",
+      "filename": "followRequests.json",
+      "documentCount": 0
+    },
+    {
+      "name": "comments",
+      "filename": "comments.json",
+      "documentCount": 12
+    },
+    {
+      "name": "messages",
+      "filename": "messages.json",
+      "documentCount": 6
+    },
+    {
+      "name": "bookmarks",
+      "filename": "bookmarks.json",
+      "documentCount": 0
+    },
+    {
+      "name": "fundingRequests",
+      "filename": "fundingRequests.json",
+      "documentCount": 1
+    },
+    {
+      "name": "notifications",
+      "filename": "notifications.json",
+      "documentCount": 29
+    },
+    {
+      "name": "users",
+      "filename": "users.json",
+      "documentCount": 8
+    },
+    {
+      "name": "contentLikes",
+      "filename": "contentLikes.json",
+      "documentCount": 14
+    },
+    {
+      "name": "follows",
+      "filename": "follows.json",
+      "documentCount": 20
+    },
+    {
+      "name": "conversations",
+      "filename": "conversations.json",
+      "documentCount": 3
+    },
+    {
+      "name": "contents",
+      "filename": "contents.json",
+      "documentCount": 13
+    }
+  ]
+}
